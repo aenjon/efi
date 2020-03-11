@@ -1,0 +1,25 @@
+
+Clover Installer r5103 (3f3b85da) (v1.1.1), 2020-03-10 08:18:45
+macOS Version 10.14.6 (Build 18G87)
+SELF = /Volumes/bootloadergao/Clover.app/Contents/MacOS/CloverDaemonNew
+Backup made at:
+/Users/nj/Desktop/CloverBackUp/SAMSUNG MZVLW128HEGR-000H1 Media/r4903_2020-03-10_20-18-39/EFI.
+Target volume: /Volumes/efi
+BSD Name:      disk0s1
+Filesystem:    FAT32
+Is internal:   true
+Is writable:   true
+
+Installing/Updating Clover:
++ ../BOOT/BOOTX64.efi
++ ../CLOVER/CLOVERX64.efi
+
+Installing/Updating drivers:
+
+Installing/Updating tools:
++ ../tools/bdmesg.efi
++ ../tools/Shell32.efi
++ ../tools/Shell64.efi
++ ../tools/Shell64U.efi
+
+Installing/Updating docs:

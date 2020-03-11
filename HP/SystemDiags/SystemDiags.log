@@ -1,0 +1,101 @@
+2019-12-27 16:41:51  ================================================
+2019-12-27 16:41:51  EFI System Diagnostic 7.0.1.0 Started
+2019-12-27 16:41:51  Load Options Blank
+2019-12-27 16:41:51  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 2
+2019-12-27 16:41:51  Found HP Thermal Diagnostic Protocol
+2019-12-27 16:41:51  [L]> System ID: 84DA
+2019-12-27 16:41:51  HP BIOS Image Interface Protocol Version 2.0
+2019-12-27 16:41:51  [L]> Found 8 Processors 8 Enabled Processors
+2019-12-27 16:41:51  [L]> MpService2 found Bsp at index 0
+2019-12-27 16:41:51  [L]> Found 1 Absolute Pointer Protocol(s)
+2019-12-27 16:41:51  [L]> 0 UART device path node found.
+2019-12-27 16:41:51  System Family: = 2
+2019-12-27 16:41:51  Filter Serial Port Test for SystemFamily 2 
+2019-12-27 16:41:51  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2019-12-27 16:41:51  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2019-12-27 16:41:51  [L]> PlatformLang reported as zh-chs.
+2019-12-27 16:41:51  [L]> Language Selected is currently (chs).
+2019-12-27 16:41:55  Initializing Drive Library.
+2019-12-27 16:41:55  TscPerSecond = 08954F1BEh 
+2019-12-27 16:41:55  Installed DTD ATA Commands Protocol
+2019-12-27 16:41:55  Found installed DTD ATA Commands Protocol supporting Packet Commands!
+2019-12-27 16:41:55  Found 1 Hard Disk Drive.
+2019-12-27 16:41:55  Drive 0 SMART Supported
+2019-12-27 16:41:55  AtaCommandsBindBlockIoProtocol(): Linked Block I/O Protocol (0x54E9FE38) to Drive 0
+2019-12-27 16:41:55  1 Total ATA Drives Found
+2019-12-27 16:41:55  Found 1 handles supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2019-12-27 16:41:55  Found 2 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2019-12-27 16:41:55  [W]> PciIo Class Code (BCC:01,SCC:04,PI:00) unmatched for NVMe device. (Success)
+2019-12-27 16:41:55  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2019-12-27 16:41:55  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:2,Dev:0,Func:0), BAR(0x0000000084400000).
+2019-12-27 16:41:55  [L]> NVMe Controller Version: 1.2
+2019-12-27 16:41:55  NVMe device connected at NamespaceID 0x1
+2019-12-27 16:41:55  Device Node NVMe(0x1,20-69-B5-81-B3-38-25-00).
+2019-12-27 16:41:55  Drive 1 - RTD3 Entry Latency: 5000000
+2019-12-27 16:41:55  Drive 1 - Firmware Revision: CXB73H1Q
+2019-12-27 16:41:55  Drive 1 - VidDid: 0xA804144D
+2019-12-27 16:41:55  Drive 1 - SMART Log NSID Supported.
+2019-12-27 16:41:55  Drive 1 - Short/Long DST Supported.
+2019-12-27 16:41:55  Drive 1 - The Medium is Removable
+2019-12-27 16:41:55  Drive 1 - LBA Format: Using Format 0
+2019-12-27 16:41:55  Drive 1 - Logical Sector Size: 512
+2019-12-27 16:41:55  NVMePassThruGetBlockIoProtocolDirectly(): Found 11 supporting EFI_BLOCK_IO_PROTOCOL.
+2019-12-27 16:41:55  Linked Block I/O Protocol (0x54E3B050) to Drive 1
+2019-12-27 16:41:55  Drive 1, LastBlock = 0x0EE7C2AF IoAlign 0x4
+2019-12-27 16:41:55  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2019-12-27 16:41:55  2 Total Hard Disc Drives Found
+2019-12-27 16:41:55  0 Total Optical Disc Drives Found
+2019-12-27 16:41:55  Found 2 Hard Disk Drives
+2019-12-27 16:41:55  Found 0 Optical Disk Drives
+2019-12-27 16:41:55  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2019-12-27 16:41:55  Failed to initialize NVDIMM modules.
+2019-12-27 16:41:55  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x64, Worse is 0x00.
+2019-12-27 16:41:55  SSD Wear Data: 00 00 00 00 00 00. 
+2019-12-27 16:41:55  [L]> System ID: 84DA
+2019-12-27 16:41:55  [L]> SMBIOS Type: 17, ID: 0 not found. 
+2019-12-27 16:41:55  [L]> SMBIOS Type: 17, ID: 0 not found. 
+2019-12-27 16:41:55  [L]> SMBIOS Type: 17, ID: 0 not found. 
+2019-12-27 16:41:55  System Model: = OMEN by HP Laptop 15-dc0xxx
+2019-12-27 16:41:55  System SKU: = 4LE29PA#AB2
+2019-12-27 16:41:55  System ID: 84DA
+2019-12-27 16:41:55  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2019-12-27 16:41:55  Type 11 OS Image: BUILDID#18WW14MT602#SAB2#DAB2
+2019-12-27 16:41:55  Warranty Start Date: 09/28/2018
+2019-12-27 16:41:55  HDD 0 Type : ATA
+2019-12-27 16:41:55  HDD 0 Model :   HGST HTS721010A9E630
+2019-12-27 16:41:55  HDD 0 Firmware: JB0OA3T0
+2019-12-27 16:41:55  HDD 0 Serial:   JR1000BNK1V14E
+2019-12-27 16:41:55  HDD 1 Type : NVMe
+2019-12-27 16:41:55  HDD 1 Model :   SAMSUNG MZVLW128HEGR-000H1
+2019-12-27 16:41:55  HDD 1 Firmware: CXB73H1Q
+2019-12-27 16:41:55  HDD 1 Serial:   S33ZNX0K327316
+2019-12-27 16:41:55  DIMM 0 Serial Number: 2CB31252
+2019-12-27 16:41:55  DIMM 0 Part Number  : HMA81GS6CJR8N-VK    
+2019-12-27 16:41:55  BIOS Revision: F.05
+2019-12-27 16:41:55  [L]> Platform Vendor ID : 0x8086
+2019-12-27 16:41:55  [L]> Platform Device ID : 0x3E10
+2019-12-27 16:41:55  [L]> Only a single DIMM (Index 1) is populated on the system
+2019-12-27 16:41:55  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2019-12-27 16:41:55  InitializeCeeLogs - No Records Found
+2019-12-27 16:41:55  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2019-12-27 16:41:55  Type 11 1 tables
+2019-12-27 16:41:55  Type (000000000000000Bh), Len (0000000000000005h), Handle (000000000000000Fh), String count (000000000000000Dh)
+2019-12-27 16:41:55  HPBATDET: Environment Variable not found.
+2019-12-27 16:41:55  BATDET: Date 4//9//2018 
+2019-12-27 16:41:55  BATDET: 0
+2019-12-27 16:41:55  [L]> BATDET: HP
+2019-12-27 16:41:55  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2019-12-27 16:41:55  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2019-12-27 16:41:55  Legacy Support:
+2019-12-27 16:41:55  	*Disable
+2019-12-27 16:41:55  	Enable
+2019-12-27 16:41:55  GetBIOSBootModeFromBIOSConfig(): Legacy Support is Not Enabled. 
+2019-12-27 16:41:55  Secure Boot:
+2019-12-27 16:41:55  	Disable
+2019-12-27 16:41:55  	*Enable
+2019-12-27 16:41:55  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2019-12-27 16:41:55  BIOS Config Table Adaptive Battery Extender section was not found. 
+2019-12-27 16:41:55  BIOS Config Table DMAr Protection section was not found. 
+2019-12-27 16:41:56  Starting Graphical System Diagnostic Menu
+2019-12-27 16:42:03  Uninstalling DTD ATA Commands Protocol
+2019-12-27 16:42:03  Exiting System Diagnostics
